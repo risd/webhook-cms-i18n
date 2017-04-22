@@ -83,9 +83,9 @@
       "urls": {
         "title": "Set up URL redirects",
         "infoTitle": "Set up URL redirects",
-        "infoMessage": "This page allows you to set up permanent 301 redirects for URLs on your site using <a href='http://nginx.org/en/docs/http/ngx_http_rewrite_module.html#rewrite'>Nginx syntax</a> syntax. It follows the following basic rules:",
-        "infoRuleOne": "It only works on Webhook sites using custom domains, not the webhook.org domains.",
-        "infoRuleTwo": "Any redirects set here will trump any URL handling you are managing in the CMS or through your directory structure.",
+        "infoMessage": "This page allows you to set up permanent 301 redirects for URLs on your site. It follows the following basic rules:",
+        "infoRuleOne": "It only on any deployed site connected to this CMS.",
+        "infoRuleTwo": "If a redirect is set, but there is already a file written at that location, the redirect will not take.",
         "noDomainTitle": "No custom domain",
         "noDomainMessage": "Redirect rules only work if you have a custom domain set up. <a href='#/wh/settings/domain/'>Configure your domain</a>.",
         "action": "Save",
